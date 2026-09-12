@@ -1,7 +1,7 @@
 # SQL Injection Vulnerability Assessment - Week 1
 
 **Date:** September 12, 2026  
-**Platform:** PortSwigger Web Security Academy  
+**Platform:** PortSwigger Web Security Academy 
 **Severity:** 🔴 High  
 **Status:** ✅ Completed & Documented
 
