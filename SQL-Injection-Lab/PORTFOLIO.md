@@ -35,7 +35,7 @@
 | Week | Topic | Status | Link |
 |------|-------|--------|------|
 | Week 1 | SQL Injection | Complete | [View](./SQL-Injection-Lab/README.md) |
-| Week 2 | Authentication Bypass | [View](./Authentication-Bypass-Lab/README.md) |
+| Week 2 | Authentication Bypass | Complete | [View](./Authentication-Bypass-Lab/README.md) |
 | Week 3-4 | Advanced Web Vulnerabilities | In progress | - |
 
 ---
