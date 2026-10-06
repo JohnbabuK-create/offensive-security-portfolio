@@ -1,0 +1,50 @@
+# Lab 3: Broken Access Control - Admin Panel Bypass
+
+## Overview
+- **Vulnerability:** Broken Access Control
+- **OWASP Category:** A01:2021 – Broken Access Control
+- **Severity:** CRITICAL (CVSS 9.9)
+- **Platform:** OWASP Juice Shop
+- **Date Completed:** October 3-4, 2026
+
+## What This Lab Demonstrates
+- Vertical privilege escalation (customer → admin)
+- Missing server-side authorization checks
+- Client-side-only security validation
+- Unauthorized access to admin functions
+
+## Key Findings
+✓ Admin panel accessible to any authenticated user  
+✓ No role checking on /admin endpoint  
+✓ API calls succeed without authorization  
+✓ Customer can access all user management features  
+
+
+## Quick Summary
+Regular customer accounts can directly access the admin panel by navigating to `/#/administration`. There are no server-side authorization checks verifying the user's role before allowing access to sensitive admin functions.
+
+## Exploitation Method
+1. Create regular customer account
+2. Login with customer credentials
+3. Navigate to `/#/administration`
+4. Admin dashboard loads completely
+5. All admin functions accessible
+
+## Impact
+- View all registered users
+- Access customer personal data
+- Modify system settings
+- Delete user feedback
+- Manage inventory
+
+## Tools Used
+- Browser (direct navigation)
+- Burp Suite (intercepting API requests)
+- Developer Console (inspecting requests)
+
+## CVSS Score
+**9.9** (CRITICAL) - Highest severity access control bypass
+
+---
+**Status:** ✅ COMPLETE  
+**Week 4 Summary:** All 3 labs complete - 5+ vulnerabilities documented
