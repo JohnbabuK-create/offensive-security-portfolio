@@ -59,7 +59,7 @@ See individual lab folders for detailed write-ups.
 | Week 1 | SQL Injection | Complete | [View](./SQL-Injection-Lab/README.md) |
 | Week 2 | Authentication Bypass | Complete | [View](./Authentication-Bypass-Lab/README.md) |
 | Week 3 | Broken Access Control | Completed | [View](./Broken-Access-Control-Lab/README.md) |
-| Week 4 | JWT Token, Admin Panel Bypass, Insecure Data Storage | Completed | [View] (./JWT-Token-Lab) (./Insecure-Data-Storage-Lab) (./Admin-Panel-Bypass)|
+| Week 4 | JWT Token, Admin Panel Bypass, Insecure Data Storage | Completed | [View](./JWT-Token-Lab)(./Insecure-Data-Storage-Lab)(./Admin-Panel-Bypass)|
 
 ---
 
